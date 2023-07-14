@@ -4,7 +4,7 @@ import { getContacts } from 'redux/selectors';
 import { addContact } from 'redux/contactsOperations';
 import { Container, Input, Label, Btn } from './ContactForm.styled';
 import { nanoid } from 'nanoid';
-import { ToastContainer, toast } from 'react-toastify';
+// import { ToastContainer, toast } from 'react-toastify';
 
 function ContactForm() {
   const [name, setName] = useState('');
